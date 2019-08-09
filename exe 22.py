@@ -1,9 +1,9 @@
-print('''
-22. Faça um Programa que peça um número inteiro e determine se ele é par ou impar.
+print('''22. Faça um Programa que peça um número inteiro e 
+determine se ele é par ou impar. 
 Dica: utilize o operador módulo (resto da divisão).
 ''')
-n = int(input('Informe um número inteiro: '))
+n = int(input('Digite um N° inteiro: '))
 if n%2 == 0:
-    print(f'{n} é um N° PAR!')
+    print('PAR')
 else:
-    print(f'{n} é um N° ÍMPAR!')
+    print('ÍMPAR')
